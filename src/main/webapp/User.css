@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLZAi9scoEI7CITboSIUSdo-D2sHFY6hCaw&usqp=CAU");
+    background-size:cover;
+    background-position:center;
+}
+div{
+	margin-top:50px;
+    width: 23%; 
+    height:50%;
+    background-image:linear-gradient(cyan,black);
+    padding: 20px;
+    border: 2px ;
+    border-style:solid;
+    border-radius: 8px;
+   
+    margin-top: 50px; /* Example margin */
+}
+h1{
+	color:black;
+}
+h1:hover{
+	color:white;
+	
+}
+.box {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: double;
+    border-width:3px;
+    border-radius: 7px;
+    font-size:15px;
+}
+.box:hover{
+	color:black;
+	 background-color: #4CAF50;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:white;
+    color: black;
+    border: double;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color:white;
+}
